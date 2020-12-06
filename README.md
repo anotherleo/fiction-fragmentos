@@ -1,6 +1,6 @@
 # fiction-fragmentos
 
-## a-0000 [...]
+## a-0000-title [...]
 as entradas enciclopédicas sobre os fragmentos.
 
 ## f-0000 [...]
