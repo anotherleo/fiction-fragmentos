@@ -1,17 +1,21 @@
 # fiction-fragmentos
+index.html | style.css | script.js  
 
 ## a-0000-title [...]
-*archives*
+*archives*  
 as entradas enciclopédicas sobre os fragmentos.
 
 ## b-0000-title [...]
-*books*
+*books*  
 entradas de livros.
 
+### b-0000a [...]
+subitem do anterior.
+
 ## f-0000 [...]
-*fragments*
+*fragments*  
 as entradas de história dos fragmentos.
 
 ## o-0000-title [...]
-*others*
+*others*  
 entradas que não se encaixam nas anteriores.
