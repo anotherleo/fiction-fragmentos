@@ -5,7 +5,7 @@ index.html | style.css | script.js | folder of images on pinterest
 *archives*  
 as entradas enciclopédicas sobre os fragmentos.
 
-## b-0000-title [...]
+## b-0000-title-author [...]
 *books*  
 entradas de livros.
 
