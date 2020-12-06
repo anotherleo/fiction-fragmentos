@@ -1,5 +1,5 @@
 # fiction-fragmentos
-index.html | style.css | script.js  
+index.html | style.css | script.js | folder of images on pinterest
 
 ## a-0000-title [...]
 *archives*  
