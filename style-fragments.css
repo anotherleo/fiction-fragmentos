@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 body {
     font-family: 'Cantarell', sans-serif;
@@ -55,7 +56,8 @@ button.next:hover, button.next:active {
     background: ;
 }
 
-/* contém <p> */
+/* área do texto principal, <p> */
+
 article {
     box-sizing: border-box;
     border-left: 0.5rem solid rgba(11, 0, 255, 0.09);
@@ -68,6 +70,14 @@ article {
 
 article p {
     text-indent: 2rem;
+}
+
+.date {
+    font-family: 'Reenie Beanie', cursive;;
+    text-align: right;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-right:5%;
 }
 
 /* footer de links */
