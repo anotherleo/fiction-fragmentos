@@ -2,6 +2,24 @@
    IDEIA: container centralizado, fonte de leitura fácil justificada, fluidez.
 */
 
+body {
+    align-items: center;
+    justify-content: center;
+}
+
 .authorComments {
     font-style: italic;
+}
+
+/* container da leitura*/
+main {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 20% 0 20%;
+    text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+    main {
+
+    }
 }
