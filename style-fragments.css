@@ -41,6 +41,9 @@ button a {
     color: inherit;
 }
 
+button.home {
+    background ;
+}
 button.previous:hover, button.previous:active {
     background: ;
 }
