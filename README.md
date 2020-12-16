@@ -1,5 +1,7 @@
 # fiction-fragmentos
-index.html | style.css | script.js | folder of images on pinterest
+*página geral*
+index.html | style.css | script.js | 
+folder of images on pinterest: https://br.pinterest.com/anotherthomas/fragmentos-ilustrados/
 
 ## a-0000-title [...]
 *archives*  

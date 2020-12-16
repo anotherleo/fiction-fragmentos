@@ -1,0 +1,11 @@
+/* CSS aplicado somente aos arquivos dos corvos 
+   IDEIA: estilo enciclopédico, mais old school.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+/* aside de descrição física */
+body {
+    font-family:'Courier Prime', Courier, monospace;
+}
+.appearance {}
