@@ -81,7 +81,7 @@ footer {
 }
 
 /* ajustes de imagens */
-figure {
+figure.polaroidPortrait {
     transform: rotate(-8deg);
     float: left;
     margin:5%;
@@ -116,7 +116,8 @@ figcaption {
 }
 
 @media screen and (max-width: 550px) {    
-    figure {
+    figure.polaroidPortrait {
         float:none;
+        
     }
 }
