@@ -2,13 +2,10 @@
    IDEIA: container centralizado, fonte de leitura fácil justificada, fluidez.
 */
 
-body {
-    align-items: center;
-    justify-content: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
 
-.authorComments {
-    font-style: italic;
+body {
+    font-family: 'Cantarell', sans-serif;
 }
 
 /* container da leitura*/
@@ -18,6 +15,23 @@ main {
     margin: 0 25% 0 25%;
     text-align: justify;
 }
+
+/* header */
+header {
+    text-align: center;
+}
+
+/* footer de links */
+footer {
+    text-align: center;
+}
+
+/* estilização de texto */
+.authorComments {
+    font-style: italic;
+}
+
+
 @media screen and (max-width: 1000px) {
     main {
         width: 90%;

@@ -7,7 +7,7 @@
 
 body {
     font-family:'Courier Prime', Courier, monospace;
-    background-color: #000;
+    background: #000 url(https://i.pinimg.com/564x/c8/75/d9/c875d98a0ad295b6cee458908788191e.jpg) no-repeat fixed right;
     color:white;
 }
 
@@ -22,12 +22,33 @@ h1 {
 }
 
 button {
-    padding:1rem;
+    padding: 1rem;
     font-family: 'Courier Prime', Courier, monospace;
     color: white;
     text-transform: uppercase;
     border: 2px solid white;
     background-color: #000;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* somente mainpage */
+header.mainpage {
+    margin: 20% 0 0% 0;
+}
+h1.mainpage {
+    text-transform: uppercase;
+    background-color: #000;
+    display: inline-block;
+}
+nav.mainpage {
+    background-color: #000;
+    display: inline-block;
+    margin: 0 35% 0 35%;
 }
 
 /* artigo de texto */
@@ -41,6 +62,11 @@ article {
     font-family: 'Economica', sans-serif;
     text-align: justify;
     width: 40%;
+}
+
+footer {
+    text-align: center;
+    margin: 5% 0 5% 0;
 }
 
 @media screen and (max-width: 1000px) {
