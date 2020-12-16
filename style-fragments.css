@@ -3,6 +3,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 body {
     font-family: 'Cantarell', sans-serif;
@@ -79,6 +80,27 @@ footer {
     font-style: italic;
 }
 
+/* ajustes de imagens */
+figure {
+    transform: rotate(-8deg);
+    float: left;
+    margin:5%;
+    padding: 1% 1% 1% 1%;
+    border: 1px solid gray;
+    box-shadow: 10px 5px 5px lightgray;
+    background: #FFF;
+    width: fit-content;
+}
+figcaption {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.portrait {
+    height: 15rem;
+    width:auto;
+}
+
+/* visualização em celulares e telas menores */
 @media screen and (max-width: 1000px) {
     body {
         margin:0px;
@@ -90,5 +112,11 @@ footer {
     article {
         width: 95%;
         margin: 0%;
+    }
+}
+
+@media screen and (max-width: 550px) {    
+    figure {
+        float:none;
     }
 }
