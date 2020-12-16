@@ -14,8 +14,8 @@ body {
 /* container da leitura*/
 main {
     box-sizing: border-box;
-    width: 60%;
-    margin: 0 20% 0 20%;
+    width: 50%;
+    margin: 0 25% 0 25%;
     text-align: justify;
 }
 @media screen and (max-width: 1000px) {
