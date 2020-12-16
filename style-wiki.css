@@ -3,9 +3,48 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
 
-/* aside de descrição física */
 body {
     font-family:'Courier Prime', Courier, monospace;
+    background-color: #000;
+    color:white;
 }
-.appearance {}
+
+/* contém h1, h3 e navbar */
+header {
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    padding:1rem;
+    font-family: 'Courier Prime', Courier, monospace;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background-color: #000;
+}
+
+/* artigo de texto */
+article {
+    margin: 0 30% 0 30%;
+    text-align: justify;
+}
+
+/* aside de descrição física, dentro do artigo */
+.appearance {
+    font-family: 'Economica', sans-serif;
+    text-align: justify;
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    article {
+        margin: 0 5% 0 5%;
+    }
+}
