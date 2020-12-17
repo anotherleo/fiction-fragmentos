@@ -80,6 +80,11 @@ article p {
     margin-right:5%;
 }
 
+/* authorNotes, área oculta */
+#authorNotes {
+    display: none;
+}
+
 /* footer de links */
 footer {
     text-align: center;
