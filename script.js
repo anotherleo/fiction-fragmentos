@@ -1,8 +1,9 @@
 function showNotes() {
-    var showNote = document.getElementByClass("authorNotes");
-    if (showNote.style.display === "block") {
-        showNote.style.display = "none";
+    var showSection = document.getElementById("authorNotes");
+    if (showSection.style.display === "none") {
+        showSection.style.display = "block";
     } else {
-        showNote.style.display = "block";
+        showSection.style.display === "block";
+        showSection.style.display = "none";
     }
   }
